@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pafúncio Soft's</title>
+    <link rel="stylesheet" href="css/cores.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"> 
+   
+</head>
+<body>
+    
+    <aside id="sidebar" class="sidebar">
+        <div class="logo" onclick="processarSideBar();">
+            <i class="fa-solid fa-microchip"></i>
+            <span class="texto-menu">Páfuncio Soft</span>
+        </div>
+        <nav>
+            <a href="index.html">
+                <i class="fa-solid fa-chart-pie"></i>
+                <span class="texto-menu">Dashboard</span>
+            </a>
+            <a href="produtos.html">
+                <i class="fa-solid fa-gifts"></i>
+                <span class="texto-menu">Produtos</span>
+            </a>
+            <a href="pdv.html">
+                <i class="fa-solid fa-money-check-dollar"></i>
+                <span class="texto-menu">PDV - Frente de Caixa</span>
+            </a>
+            <a href="sobre.html">
+                <i class="fa-solid fa-address-card"></i>
+                <span class="texto-menu">Sobre</span>
+            </a>
+        </nav>
+    </aside>
+  <!-- @-----------------------@ -->
+    <main>
+        <header>
+            <h1><i class="fa-solid fa-address-card"> </i>Sobre</h1>
+            <div class="icones-esquerda">
+                <span id="usuario">OLÁ USUARIO</span>
+                <i class="fa-solid fa-right-from-bracket" onclick="logout();"></i> 
+                <i id="icone-modo" class="icon fas fa-moon" onclick="alterarModo();"></i>
+            </div>
+        </header>
+        <div class="container">
+            <h3>Projeto simulador de sistemas de vendas</h3>
+            <p>
+                Esse é um projeto de exemplo desenvolvido por Cainã Ferreira Mariano como parte da unidade curricular Linguagem de 
+                Marcação, do curso Técnico em Desenvolvimento de Sistemas do SENAI.
+            </p>
+            <h3>Tecnologias utilizadas</h3>
+            <ul>
+                <li>HTML 5</li>
+                <li>CSS 3</li>
+                <li>JavaScript</li>
+                <li>Chart.js</li>
+                <li>Font Awesome</li>
+                <li>Armazenamento: Local Storage e Session Storage</li>
+            </ul>
+            <h3>Professor</h3>
+            <p>Sérgio Lacerda</p>
+        </div>
+
+
+
+    </main>
+
+  <!-- @-----------------------@ -->
+    <footer>
+        
+    </footer>
+
+</body>
+<script src="js/scripts.js"></script>
+</html>

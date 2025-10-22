@@ -1,0 +1,17 @@
+.graficos-de-lado{
+    display: flex;
+    width: 100%;
+    gap: 20px; /*espaçamento entre os gráficos*/
+    margin-bottom: 25px;
+}
+
+.area-grafico{
+    flex: 1; /*preenche o espaço disponível e encolhe se precisar*/
+    max-width: 50%;
+    height: 250px;
+}
+
+.area-grafico canvas{
+    width: 100% !important;
+    height: 100% !important;
+}

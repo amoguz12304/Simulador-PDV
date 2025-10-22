@@ -1,0 +1,67 @@
+.resumo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.resumo-item{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    width: 33%;
+    padding: 0px 15px;
+    text-align: center;
+    background-color: var(--bg-logo);
+    color: var(--font-sidebar);
+    border-radius: 10px;
+}
+
+.central{
+    margin: 0px 20px;
+}
+
+h6, h3{
+    margin: 15px 0px;
+}
+
+.resumo-prod {
+    width: 50%;
+    margin-right: 10px;
+}
+
+.resumo-cupom {
+    width: 50%;
+    margin-left: 10px;
+}
+
+.resumo-prod h6, .resumo-cupom h6 {
+    font-size: 20px;
+    background-color: var(--bg-logo);
+    color: var(--font-sidebar);
+    border-radius: 10px;
+    padding: 3px 10px;
+}
+
+.resumo-prod-item, .resumo-cupom-item{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--border-mode);
+    padding: 3px 0px;
+}
+
+.icone-acao {
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.w25 {
+    width: 25px;
+}
+
+.w120dir {
+    width: 120px;
+    text-align: right;
+}
+
+.esquerda {
+    flex-grow: 1;
+    text-align: left;
+}

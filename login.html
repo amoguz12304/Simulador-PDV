@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pafúncio Soft - Login</title>
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    
+    <main>
+        <div class="logo">
+            <i class="fa-solid fa-microchip"></i>
+            <span class="texto-menu">Pafúncio Soft</span>
+        </div>
+        <div id="campos">
+            <form id="frmLogin" name="frmLogin" onsubmit="return validarLogin();">
+                <label for="inLogin">Usuário</label>
+                <input type="text" name="inLogin" id="inLogin" required>
+                <label for="inSenha">Senha</label>
+                <input type="password" name="inSenha" id="inSenha" required>
+                <button type="submit">Logar</button>
+                <p>
+                    <a href="#">Esqueci minha senha</a>
+                </p>
+                <p id="erro">
+                    Login ou senha incorretos!
+                </p>
+            </form>
+        </div>
+    </main>
+
+</body>
+<script src="js/login.js"></script>
+</html>

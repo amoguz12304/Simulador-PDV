@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pafúncio Soft's</title>
+    <link rel="stylesheet" href="css/cores.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/cadastro.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"> 
+    <link rel="stylesheet" href="css/pdv.css">
+</head>
+<body>
+    
+    <aside id="sidebar" class="sidebar">
+        <div class="logo" onclick="processarSideBar();">
+            <i class="fa-solid fa-microchip"></i>
+            <span class="texto-menu">Páfuncio Soft</span>
+        </div>
+        <nav>
+            <a href="index.html">
+                <i class="fa-solid fa-chart-pie"></i>
+                <span class="texto-menu">Dashboard</span>
+            </a>
+            <a href="produtos.html">
+                <i class="fa-solid fa-gifts"></i>
+                <span class="texto-menu">Produtos</span>
+            </a>
+            <a href="pdv.html">
+                <i class="fa-solid fa-money-check-dollar"></i>
+                <span class="texto-menu">PDV - Frente de Caixa</span>
+            </a>
+            <a href="sobre.html">
+                <i class="fa-solid fa-address-card"></i>
+                <span class="texto-menu">Sobre</span>
+            </a>
+        </nav>
+    </aside>
+  <!-- @-----------------------@ -->
+    <main>
+        <header>
+            <h1><i class="fa-solid fa-money-check-dollar"> </i> PDV - Frente de Caixa</h1>
+            <div class="icones-esquerda">
+                <span id="usuario">OLÁ USUARIO</span>
+                <i
+                 class="fa-solid fa-right-from-bracket" onclick="logout();"></i> 
+                <i id="icone-modo" class="icon fas fa-moon" onclick="alterarModo();"></i>
+            </div>
+        </header>
+        <div class="container">
+          <div class="resumo">
+
+            <div class="resumo-item">
+             <h6>Produtos</h6> <h3 id="tprodutos">R$ 0.00</h3>
+            </div>
+
+            <div class="resumo-item central">
+                <h6>Desconto</h6> <h3 id="tdescontos">R$ 0.00</h3>
+            </div>
+
+            <div class="resumo-item">
+                <h6>Total</h6> <h3 id="ttotal">R$ 0.00</h3>
+            </div>      
+
+          </div>
+
+          <div class="resumo">
+            <div class="resumo-prod">
+               <h6>Produtos</h6>
+               <div id="resumo-prod-content"></div>
+            </div>
+
+            <div class="resumo-cupom">
+                <h6>Cupom</h6>
+                <div id="resumo-cupom-content"></div>
+            </div>
+          </div>
+        </div>
+
+
+    </main>
+
+  <!-- @-----------------------@ -->
+    <footer>
+        
+    </footer>
+
+</body>
+<script src="js/scripts.js"></script>
+<script src="js/mock-produtos.js"></script>
+<script src="js/pdv.js"></script>
+</html>
