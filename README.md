@@ -4,7 +4,10 @@ Projeto de exemplo de sistema de vendas PDV desenvolvido na unidade curricular L
 
 ## Screenshots 
 
-![Descrição da imagem](endereco-imagem "Descrição da imagem")
+![Tela de Dashboard](https://github.com/amoguz12304/Simulador-PDV/blob/master/telas/Dashboard.png "Tela de Dashboard")
+
+![Tela de PDV](https://github.com/amoguz12304/Simulador-PDV/blob/master/telas/pdv.png "Tela de PDV")
+
 
 ## Technologias 
 
