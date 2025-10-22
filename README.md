@@ -19,7 +19,7 @@ Projeto de exemplo de sistema de vendas PDV desenvolvido na unidade curricular L
 ## Como clonar o repositório
 
 ```console
-git clone endereco-do-seu-repositorio
+git clone https://github.com/amoguz12304/Simulador-PDV.git
 ```
 
 ## Credenciais para login
